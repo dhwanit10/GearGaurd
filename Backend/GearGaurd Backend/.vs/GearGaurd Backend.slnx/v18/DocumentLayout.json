@@ -290,8 +290,7 @@
               "RelativeToolTip": "GearGaurd Backend\\API_DOCUMENTATION.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-12-27T11:28:46.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T11:28:46.767Z"
             },
             {
               "$type": "Document",
@@ -301,8 +300,7 @@
               "ToolTip": "C:\\Users\\BAPS\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-1464504916\\PERFORMANCE_OPTIMIZATIONS.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-12-27T11:28:02.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T11:28:02.697Z"
             },
             {
               "$type": "Document",
@@ -314,8 +312,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Services\\UserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T10:57:27.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T10:57:27.778Z"
             },
             {
               "$type": "Document",
@@ -327,8 +324,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Services\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T10:57:21.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T10:57:21.835Z"
             },
             {
               "$type": "Document",
@@ -340,8 +336,7 @@
               "RelativeToolTip": "GearGaurd Backend\\DTOs\\UserResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T10:57:15.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T10:57:15.735Z"
             },
             {
               "$type": "Document",
@@ -353,8 +348,7 @@
               "RelativeToolTip": "GearGaurd Backend\\DTOs\\UpdateMaintenanceRequestDto.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:51:57.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:51:57.887Z"
             },
             {
               "$type": "Document",
@@ -366,8 +360,7 @@
               "RelativeToolTip": "GearGaurd Backend\\DTOs\\UpdateCategoryRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:28:11.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:28:11.637Z"
             },
             {
               "$type": "Document",
@@ -379,8 +372,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T10:57:33.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T10:57:33.462Z"
             },
             {
               "$type": "Document",
@@ -392,8 +384,7 @@
               "RelativeToolTip": "GearGaurd Backend\\DTOs\\MaintenanceRequestResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:52:05.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:52:05.694Z"
             },
             {
               "$type": "Document",
@@ -405,8 +396,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Services\\IMaintenanceRequestService.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAIBYwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:52:12.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:52:12.712Z"
             },
             {
               "$type": "Document",
@@ -418,8 +408,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Services\\MaintenanceRequestService.cs",
               "ViewState": "AgIAAPgAAAAAAAAAAIBZwP0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:52:29.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:52:29.7Z"
             },
             {
               "$type": "Document",
@@ -431,8 +420,7 @@
               "RelativeToolTip": "GearGaurd Backend\\DTOs\\CreateMaintenanceRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T10:07:01.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T10:07:01.749Z"
             },
             {
               "$type": "Document",
@@ -444,8 +432,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Controllers\\MaintenanceRequestController.cs",
               "ViewState": "AgIAAFMAAAAAAAAAAABRwFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:52:38.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:52:38.721Z"
             },
             {
               "$type": "Document",
@@ -457,8 +444,7 @@
               "RelativeToolTip": "GearGaurd Backend\\DTOs\\CreateTeamMemberRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:43:25.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:43:25.789Z"
             },
             {
               "$type": "Document",
@@ -470,8 +456,7 @@
               "RelativeToolTip": "GearGaurd Backend\\DTOs\\UpdateTeamMemberRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:43:32.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:43:32.052Z"
             },
             {
               "$type": "Document",
@@ -483,8 +468,7 @@
               "RelativeToolTip": "GearGaurd Backend\\DTOs\\TeamMemberResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:43:39.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:43:39.405Z"
             },
             {
               "$type": "Document",
@@ -496,8 +480,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Services\\ITeamMemberService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:43:46.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:43:46.339Z"
             },
             {
               "$type": "Document",
@@ -509,8 +492,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Controllers\\AvailabilityController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:44:55.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:44:55.932Z"
             },
             {
               "$type": "Document",
@@ -522,8 +504,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Services\\AvailabilityService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:44:46.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:44:46.945Z"
             },
             {
               "$type": "Document",
@@ -535,8 +516,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Services\\IAvailabilityService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:44:34.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:44:34.963Z"
             },
             {
               "$type": "Document",
@@ -548,8 +528,7 @@
               "RelativeToolTip": "GearGaurd Backend\\DTOs\\AvailabilityResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:44:28.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:44:28.969Z"
             },
             {
               "$type": "Document",
@@ -561,8 +540,7 @@
               "RelativeToolTip": "GearGaurd Backend\\DTOs\\UpdateAvailabilityRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:44:21.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:44:21.359Z"
             },
             {
               "$type": "Document",
@@ -574,8 +552,7 @@
               "RelativeToolTip": "GearGaurd Backend\\DTOs\\CreateAvailabilityRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:44:15.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:44:15.317Z"
             },
             {
               "$type": "Document",
@@ -587,8 +564,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Controllers\\TeamMemberController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:44:09.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:44:09.297Z"
             },
             {
               "$type": "Document",
@@ -600,8 +576,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Services\\TeamMemberService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:43:59.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:43:59.3Z"
             },
             {
               "$type": "Document",
@@ -613,8 +588,7 @@
               "RelativeToolTip": "GearGaurd Backend\\DTOs\\CategoryResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:28:19.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:28:19.283Z"
             },
             {
               "$type": "Document",
@@ -626,8 +600,7 @@
               "RelativeToolTip": "GearGaurd Backend\\DTOs\\CreateCategoryRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:28:05.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:28:05.805Z"
             },
             {
               "$type": "Document",
@@ -639,8 +612,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Services\\ICategoryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:28:25.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:28:25.749Z"
             },
             {
               "$type": "Document",
@@ -652,8 +624,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Controllers\\TeamController.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:15:45.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:15:45.004Z"
             },
             {
               "$type": "Document",
@@ -665,8 +636,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Services\\CategoryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:28:37.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:28:37.828Z"
             },
             {
               "$type": "Document",
@@ -678,8 +648,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:28:45.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:28:45.897Z"
             },
             {
               "$type": "Document",
@@ -691,8 +660,7 @@
               "RelativeToolTip": "GearGaurd Backend\\DTOs\\EquipmentResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:24:23.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:24:23.111Z"
             },
             {
               "$type": "Document",
@@ -704,8 +672,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Services\\IEquipmentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:24:29.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:24:29.392Z"
             },
             {
               "$type": "Document",
@@ -717,8 +684,7 @@
               "RelativeToolTip": "GearGaurd Backend\\DTOs\\UpdateEquipmentRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:24:14.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:24:14.943Z"
             },
             {
               "$type": "Document",
@@ -730,8 +696,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Services\\EquipmentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAK0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:24:44.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:24:44.266Z"
             },
             {
               "$type": "Document",
@@ -743,8 +708,7 @@
               "RelativeToolTip": "GearGaurd Backend\\DTOs\\CreateEquipmentRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:24:08.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:24:08.165Z"
             },
             {
               "$type": "Document",
@@ -756,8 +720,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Controllers\\EquipmentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:24:53.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:24:53.63Z"
             },
             {
               "$type": "Document",
@@ -769,8 +732,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Services\\TeamService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:15:37.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:15:37.192Z"
             },
             {
               "$type": "Document",
@@ -782,8 +744,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Services\\ITeamService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:15:28.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:15:28.496Z"
             },
             {
               "$type": "Document",
@@ -795,8 +756,7 @@
               "RelativeToolTip": "GearGaurd Backend\\DTOs\\DeleteResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:15:23.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:15:23.191Z"
             },
             {
               "$type": "Document",
@@ -808,8 +768,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Services\\AuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T07:54:07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T07:54:07Z"
             },
             {
               "$type": "Document",
@@ -821,8 +780,7 @@
               "RelativeToolTip": "GearGaurd Backend\\DTOs\\TeamResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:15:17.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:15:17.489Z"
             },
             {
               "$type": "Document",
@@ -834,8 +792,7 @@
               "RelativeToolTip": "GearGaurd Backend\\DTOs\\UpdateTeamRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:15:12.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:15:12.701Z"
             },
             {
               "$type": "Document",
@@ -847,8 +804,7 @@
               "RelativeToolTip": "GearGaurd Backend\\DTOs\\CreateTeamRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T09:15:07.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T09:15:07.821Z"
             },
             {
               "$type": "Document",
@@ -1076,8 +1032,7 @@
               "RelativeToolTip": "GearGaurd Backend\\Program.cs",
               "ViewState": "AgIAAG0AAAAAAAAAAABRwHAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T04:35:48.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T04:35:48.032Z"
             }
           ]
         }
