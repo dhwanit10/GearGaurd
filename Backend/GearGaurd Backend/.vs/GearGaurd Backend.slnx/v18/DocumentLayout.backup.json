@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|d:\\geargaurd\\backend\\geargaurd backend\\geargaurd backend\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|solutionrelative:geargaurd backend\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Migrations\\20251227063249_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GearGaurd Backend\\Migrations\\20251227063249_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|d:\\geargaurd\\backend\\geargaurd backend\\geargaurd backend\\models\\teammember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|solutionrelative:geargaurd backend\\models\\teammember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|d:\\geargaurd\\backend\\geargaurd backend\\geargaurd backend\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|solutionrelative:geargaurd backend\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|d:\\geargaurd\\backend\\geargaurd backend\\geargaurd backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|solutionrelative:geargaurd backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|d:\\geargaurd\\backend\\geargaurd backend\\geargaurd backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|solutionrelative:geargaurd backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|d:\\geargaurd\\backend\\geargaurd backend\\geargaurd backend\\geargaurd backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|solutionrelative:geargaurd backend\\geargaurd backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|d:\\geargaurd\\backend\\geargaurd backend\\geargaurd backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|solutionrelative:geargaurd backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|d:\\geargaurd\\backend\\geargaurd backend\\geargaurd backend\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|solutionrelative:geargaurd backend\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|d:\\geargaurd\\backend\\geargaurd backend\\geargaurd backend\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|solutionrelative:geargaurd backend\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|d:\\geargaurd\\backend\\geargaurd backend\\geargaurd backend\\models\\maintenancerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|solutionrelative:geargaurd backend\\models\\maintenancerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|d:\\geargaurd\\backend\\geargaurd backend\\geargaurd backend\\models\\availability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|solutionrelative:geargaurd backend\\models\\availability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|d:\\geargaurd\\backend\\geargaurd backend\\geargaurd backend\\models\\requeststatushistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|solutionrelative:geargaurd backend\\models\\requeststatushistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|d:\\geargaurd\\backend\\geargaurd backend\\geargaurd backend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|solutionrelative:geargaurd backend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|d:\\geargaurd\\backend\\geargaurd backend\\geargaurd backend\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|solutionrelative:geargaurd backend\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|d:\\geargaurd\\backend\\geargaurd backend\\geargaurd backend\\dtos\\signuprequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|solutionrelative:geargaurd backend\\dtos\\signuprequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|d:\\geargaurd\\backend\\geargaurd backend\\geargaurd backend\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|solutionrelative:geargaurd backend\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|d:\\geargaurd\\backend\\geargaurd backend\\geargaurd backend\\dtos\\signupresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|solutionrelative:geargaurd backend\\dtos\\signupresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|d:\\geargaurd\\backend\\geargaurd backend\\geargaurd backend\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|solutionrelative:geargaurd backend\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|d:\\geargaurd\\backend\\geargaurd backend\\geargaurd backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|solutionrelative:geargaurd backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|d:\\geargaurd\\backend\\geargaurd backend\\geargaurd backend\\performance_optimizations.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{60DEF77B-403F-4575-BF9C-9B9E10696668}|GearGaurd Backend\\GearGaurd Backend.csproj|solutionrelative:geargaurd backend\\performance_optimizations.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\DTOs\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "GearGaurd Backend\\DTOs\\LoginRequestDto.cs",
+              "ToolTip": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\DTOs\\LoginRequestDto.cs",
+              "RelativeToolTip": "GearGaurd Backend\\DTOs\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T07:53:29.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20251227063249_InitialCreate.cs",
+              "DocumentMoniker": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Migrations\\20251227063249_InitialCreate.cs",
+              "RelativeDocumentMoniker": "GearGaurd Backend\\Migrations\\20251227063249_InitialCreate.cs",
+              "ToolTip": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Migrations\\20251227063249_InitialCreate.cs",
+              "RelativeToolTip": "GearGaurd Backend\\Migrations\\20251227063249_InitialCreate.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T06:32:49.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SignupResponseDto.cs",
+              "DocumentMoniker": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\DTOs\\SignupResponseDto.cs",
+              "RelativeDocumentMoniker": "GearGaurd Backend\\DTOs\\SignupResponseDto.cs",
+              "ToolTip": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\DTOs\\SignupResponseDto.cs",
+              "RelativeToolTip": "GearGaurd Backend\\DTOs\\SignupResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T07:53:42.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "GearGaurd Backend\\Services\\AuthService.cs",
+              "ToolTip": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Services\\AuthService.cs",
+              "RelativeToolTip": "GearGaurd Backend\\Services\\AuthService.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAgwIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T07:54:07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PERFORMANCE_OPTIMIZATIONS.md",
+              "DocumentMoniker": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\PERFORMANCE_OPTIMIZATIONS.md",
+              "RelativeDocumentMoniker": "GearGaurd Backend\\PERFORMANCE_OPTIMIZATIONS.md",
+              "ToolTip": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\PERFORMANCE_OPTIMIZATIONS.md",
+              "RelativeToolTip": "GearGaurd Backend\\PERFORMANCE_OPTIMIZATIONS.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-27T07:59:27.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "GearGaurd Backend\\Services\\IAuthService.cs",
+              "ToolTip": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Services\\IAuthService.cs",
+              "RelativeToolTip": "GearGaurd Backend\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T07:53:51.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SignupRequestDto.cs",
+              "DocumentMoniker": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\DTOs\\SignupRequestDto.cs",
+              "RelativeDocumentMoniker": "GearGaurd Backend\\DTOs\\SignupRequestDto.cs",
+              "ToolTip": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\DTOs\\SignupRequestDto.cs",
+              "RelativeToolTip": "GearGaurd Backend\\DTOs\\SignupRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T07:53:33.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\DTOs\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "GearGaurd Backend\\DTOs\\LoginResponseDto.cs",
+              "ToolTip": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\DTOs\\LoginResponseDto.cs",
+              "RelativeToolTip": "GearGaurd Backend\\DTOs\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T07:53:38.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "GearGaurd Backend\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "GearGaurd Backend\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T07:54:16.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MaintenanceRequest.cs",
+              "DocumentMoniker": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Models\\MaintenanceRequest.cs",
+              "RelativeDocumentMoniker": "GearGaurd Backend\\Models\\MaintenanceRequest.cs",
+              "ToolTip": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Models\\MaintenanceRequest.cs",
+              "RelativeToolTip": "GearGaurd Backend\\Models\\MaintenanceRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T06:17:34.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Equipment.cs",
+              "DocumentMoniker": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Models\\Equipment.cs",
+              "RelativeDocumentMoniker": "GearGaurd Backend\\Models\\Equipment.cs",
+              "ToolTip": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Models\\Equipment.cs",
+              "RelativeToolTip": "GearGaurd Backend\\Models\\Equipment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T06:17:27.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "GearGaurd Backend\\Models\\Category.cs",
+              "ToolTip": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Models\\Category.cs",
+              "RelativeToolTip": "GearGaurd Backend\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T06:17:20.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TeamMember.cs",
+              "DocumentMoniker": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Models\\TeamMember.cs",
+              "RelativeDocumentMoniker": "GearGaurd Backend\\Models\\TeamMember.cs",
+              "ToolTip": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Models\\TeamMember.cs",
+              "RelativeToolTip": "GearGaurd Backend\\Models\\TeamMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T06:17:15.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Team.cs",
+              "DocumentMoniker": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Models\\Team.cs",
+              "RelativeDocumentMoniker": "GearGaurd Backend\\Models\\Team.cs",
+              "ToolTip": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Models\\Team.cs",
+              "RelativeToolTip": "GearGaurd Backend\\Models\\Team.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T06:17:10.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "GearGaurd Backend\\Models\\User.cs",
+              "ToolTip": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Models\\User.cs",
+              "RelativeToolTip": "GearGaurd Backend\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T06:17:05.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GearGaurd Backend",
+              "DocumentMoniker": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\GearGaurd Backend.csproj",
+              "RelativeDocumentMoniker": "GearGaurd Backend\\GearGaurd Backend.csproj",
+              "ToolTip": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\GearGaurd Backend.csproj",
+              "RelativeToolTip": "GearGaurd Backend\\GearGaurd Backend.csproj",
+              "ViewState": "AgIAABkAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-27T06:16:42.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "GearGaurd Backend\\appsettings.json",
+              "ToolTip": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\appsettings.json",
+              "RelativeToolTip": "GearGaurd Backend\\appsettings.json",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAjwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-27T05:43:34.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "GearGaurd Backend\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "GearGaurd Backend\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAEBVwJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T06:18:02.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RequestStatusHistory.cs",
+              "DocumentMoniker": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Models\\RequestStatusHistory.cs",
+              "RelativeDocumentMoniker": "GearGaurd Backend\\Models\\RequestStatusHistory.cs",
+              "ToolTip": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Models\\RequestStatusHistory.cs",
+              "RelativeToolTip": "GearGaurd Backend\\Models\\RequestStatusHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T06:17:44.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Availability.cs",
+              "DocumentMoniker": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Models\\Availability.cs",
+              "RelativeDocumentMoniker": "GearGaurd Backend\\Models\\Availability.cs",
+              "ToolTip": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Models\\Availability.cs",
+              "RelativeToolTip": "GearGaurd Backend\\Models\\Availability.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T06:17:38.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Program.cs",
+              "RelativeDocumentMoniker": "GearGaurd Backend\\Program.cs",
+              "ToolTip": "D:\\GearGaurd\\Backend\\GearGaurd Backend\\GearGaurd Backend\\Program.cs",
+              "RelativeToolTip": "GearGaurd Backend\\Program.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAmwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T04:35:48.032Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

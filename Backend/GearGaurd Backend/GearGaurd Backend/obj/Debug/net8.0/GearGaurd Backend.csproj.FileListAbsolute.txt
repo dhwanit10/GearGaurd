@@ -1,0 +1,118 @@
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\appsettings.Development.json
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\appsettings.json
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\GearGaurd Backend.staticwebassets.endpoints.json
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\GearGaurd Backend.exe
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\GearGaurd Backend.deps.json
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\GearGaurd Backend.runtimeconfig.json
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\GearGaurd Backend.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\GearGaurd Backend.pdb
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\GearGaurd Backend.csproj.AssemblyReference.cache
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\GearGaurd Backend.GeneratedMSBuildEditorConfig.editorconfig
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\GearGaurd Backend.AssemblyInfoInputs.cache
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\GearGaurd Backend.AssemblyInfo.cs
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\GearGaurd Backend.csproj.CoreCompileInputs.cache
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\GearGaurd Backend.MvcApplicationPartsAssemblyInfo.cs
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\GearGaurd Backend.MvcApplicationPartsAssemblyInfo.cache
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\GearGaurd Backend.sourcelink.json
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\scopedcss\bundle\GearGaurd Backend.styles.css
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\staticwebassets.build.json
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\staticwebassets.development.json
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\swae.build.ex.cache
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\GearGaur.543770FB.Up2Date
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\GearGaurd Backend.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\refint\GearGaurd Backend.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\GearGaurd Backend.pdb
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\GearGaurd Backend.genruntimeconfig.cache
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\obj\Debug\net8.0\ref\GearGaurd Backend.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Humanizer.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Npgsql.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\System.CodeDom.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\GearGaurd\Backend\GearGaurd Backend\GearGaurd Backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

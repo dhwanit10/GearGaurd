@@ -1,0 +1,123 @@
+﻿using GearGaurd_Backend.Data;
+using GearGaurd_Backend.DTOs;
+using GearGaurd_Backend.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+
+namespace GearGaurd_Backend.Services;
+
+public class AuthService : IAuthService
+{
+    private readonly ApplicationDbContext _context;
+    private readonly IConfiguration _configuration;
+
+    public AuthService(ApplicationDbContext context, IConfiguration configuration)
+    {
+        _context = context;
+        _configuration = configuration;
+    }
+
+    public async Task<LoginResponseDto?> LoginAsync(LoginRequestDto loginRequest)
+    {
+        // Find user by email
+        var user = await _context.Users
+            .FirstOrDefaultAsync(u => u.Email == loginRequest.Email);
+
+        if (user == null)
+        {
+            return null;
+        }
+
+        // Verify password using BCrypt
+        bool isPasswordValid = BCrypt.Net.BCrypt.Verify(loginRequest.Password, user.Password);
+
+        if (!isPasswordValid)
+        {
+            return null;
+        }
+
+        // Generate JWT token
+        var token = GenerateJwtToken(user);
+
+        // Return user details without password
+        return new LoginResponseDto
+        {
+            Id = user.Id,
+            Name = user.Name,
+            Email = user.Email,
+            UserType = user.UserType,
+            Token = token
+        };
+    }
+
+    public async Task<SignupResponseDto> SignupAsync(SignupRequestDto signupRequest)
+    {
+        // Check if user already exists
+        var existingUser = await _context.Users
+            .FirstOrDefaultAsync(u => u.Email == signupRequest.Email);
+
+        if (existingUser != null)
+        {
+            return new SignupResponseDto
+            {
+                Success = false,
+                Message = "User with this email already exists"
+            };
+        }
+
+        // Hash password using BCrypt
+        var hashedPassword = BCrypt.Net.BCrypt.HashPassword(signupRequest.Password);
+
+        // Create new user
+        var newUser = new User
+        {
+            Name = signupRequest.Name,
+            Email = signupRequest.Email,
+            Password = hashedPassword,
+            UserType = "User" // Default user type
+        };
+
+        _context.Users.Add(newUser);
+        await _context.SaveChangesAsync();
+
+        return new SignupResponseDto
+        {
+            Success = true,
+            Message = "User registered successfully"
+        };
+    }
+
+    private string GenerateJwtToken(User user)
+    {
+        var jwtSettings = _configuration.GetSection("JwtSettings");
+        var secretKey = jwtSettings["Secret"];
+        var issuer = jwtSettings["Issuer"];
+        var audience = jwtSettings["Audience"];
+        var expiryInMinutes = int.Parse(jwtSettings["ExpiryInMinutes"] ?? "1440");
+
+        var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey!));
+        var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+
+        var claims = new[]
+        {
+            new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
+            new Claim(JwtRegisteredClaimNames.Email, user.Email),
+            new Claim(ClaimTypes.Name, user.Name),
+            new Claim(ClaimTypes.Role, user.UserType),
+            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+        };
+
+        var token = new JwtSecurityToken(
+            issuer: issuer,
+            audience: audience,
+            claims: claims,
+            expires: DateTime.UtcNow.AddMinutes(expiryInMinutes),
+            signingCredentials: credentials
+        );
+
+        return new JwtSecurityTokenHandler().WriteToken(token);
+    }
+}
