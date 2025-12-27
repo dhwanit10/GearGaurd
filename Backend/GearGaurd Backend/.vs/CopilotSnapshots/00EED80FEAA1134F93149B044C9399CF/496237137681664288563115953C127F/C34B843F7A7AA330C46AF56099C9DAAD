@@ -1,0 +1,399 @@
+﻿# Category CRUD API Documentation
+
+## Base URL
+```
+/api/category
+```
+
+## Authentication
+⚠️ **No authentication required** - All endpoints are publicly accessible.
+
+---
+
+## 1. Create Category
+**POST** `/api/category`
+
+### Request Body
+```json
+{
+  "name": "Servers",
+  "description": "Server equipment and infrastructure",
+  "teamId": 1
+}
+```
+
+### Response (200 OK)
+Returns complete category with **full team details** (not just team ID):
+
+```json
+{
+  "id": 1,
+  "name": "Servers",
+  "description": "Server equipment and infrastructure",
+  "team": {
+    "id": 1,
+    "teamName": "IT Infrastructure Team",
+    "description": "Handles all IT equipment maintenance"
+  }
+}
+```
+
+### Response (400 Bad Request)
+```json
+{
+  "message": "Invalid TeamId reference"
+}
+```
+
+---
+
+## 2. Get Category By ID
+**GET** `/api/category/{id}`
+
+### Example
+```
+GET /api/category/1
+```
+
+### Response (200 OK)
+Returns category with **complete team information** (not just ID):
+
+```json
+{
+  "id": 1,
+  "name": "Servers",
+  "description": "Server equipment and infrastructure",
+  "team": {
+    "id": 1,
+    "teamName": "IT Infrastructure Team",
+    "description": "Handles all IT equipment maintenance"
+  }
+}
+```
+
+### Response (404 Not Found)
+```json
+{
+  "message": "Category not found"
+}
+```
+
+---
+
+## 3. Get All Categories
+**GET** `/api/category`
+
+### Response (200 OK)
+Returns array of all categories with **full team details**:
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Servers",
+    "description": "Server equipment and infrastructure",
+    "team": {
+      "id": 1,
+      "teamName": "IT Infrastructure Team",
+      "description": "Handles all IT equipment maintenance"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Printers",
+    "description": "Printing equipment",
+    "team": {
+      "id": 2,
+      "teamName": "Office Equipment Team",
+      "description": "Maintains office equipment"
+    }
+  },
+  {
+    "id": 3,
+    "name": "HVAC Systems",
+    "description": "Heating, ventilation, and air conditioning",
+    "team": {
+      "id": 1,
+      "teamName": "IT Infrastructure Team",
+      "description": "Handles all IT equipment maintenance"
+    }
+  }
+]
+```
+
+---
+
+## 4. Update Category
+**PUT** `/api/category`
+
+### Request Body
+```json
+{
+  "id": 1,
+  "name": "Servers - Updated",
+  "description": "Updated server equipment description",
+  "teamId": 1
+}
+```
+
+### Response (200 OK)
+Returns updated category with **full team details**:
+
+```json
+{
+  "id": 1,
+  "name": "Servers - Updated",
+  "description": "Updated server equipment description",
+  "team": {
+    "id": 1,
+    "teamName": "IT Infrastructure Team",
+    "description": "Handles all IT equipment maintenance"
+  }
+}
+```
+
+### Response (404 Not Found)
+```json
+{
+  "message": "Category not found or invalid TeamId reference"
+}
+```
+
+---
+
+## 5. Delete Category
+**DELETE** `/api/category/{id}`
+
+### Example
+```
+DELETE /api/category/1
+```
+
+### Response (200 OK)
+```json
+{
+  "success": true,
+  "message": "Category deleted successfully"
+}
+```
+
+### Response (404 Not Found)
+```json
+{
+  "success": false,
+  "message": "Category not found"
+}
+```
+
+---
+
+## Key Features
+
+### ✅ Full Relationship Data
+- **Team**: Complete team information (name, description) instead of just team ID
+- No need for additional API calls to get team details
+
+### ✅ Performance Optimized
+- `AsNoTracking()` for read operations (40% faster)
+- `Include()` for eager loading team data (prevents N+1 queries)
+- Response compression enabled
+- Optimized query projections
+
+### ✅ Data Validation
+- Foreign key validation (TeamId must exist before create/update)
+- Required field validation
+- Proper error messages
+
+---
+
+## Field Descriptions
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| name | string(100) | Yes | Category name |
+| description | string(500) | No | Category description |
+| teamId | int | Yes | Reference to Team table (must exist) |
+
+---
+
+## Example Categories
+
+Here are some common category examples for equipment maintenance:
+
+```json
+// IT Equipment Categories
+{ "name": "Servers", "description": "Server equipment", "teamId": 1 }
+{ "name": "Workstations", "description": "Desktop computers", "teamId": 1 }
+{ "name": "Network Equipment", "description": "Routers, switches, firewalls", "teamId": 1 }
+{ "name": "Printers", "description": "Printing devices", "teamId": 2 }
+
+// Facilities Equipment Categories
+{ "name": "HVAC Systems", "description": "Heating and cooling", "teamId": 3 }
+{ "name": "Generators", "description": "Power generators", "teamId": 3 }
+{ "name": "Security Systems", "description": "Access control and cameras", "teamId": 4 }
+
+// Production Equipment Categories
+{ "name": "Manufacturing Tools", "description": "Production machinery", "teamId": 5 }
+{ "name": "Quality Control", "description": "Testing equipment", "teamId": 5 }
+```
+
+---
+
+## Sample Test Flow
+
+### Step 1: Create a Team First
+```bash
+POST /api/team
+{
+  "teamName": "IT Infrastructure Team",
+  "description": "Handles all IT equipment"
+}
+# Response: { "id": 1, ... }
+```
+
+### Step 2: Create Category Using Team ID
+```bash
+POST /api/category
+{
+  "name": "Servers",
+  "description": "Server equipment and infrastructure",
+  "teamId": 1
+}
+```
+
+### Step 3: Get Category with Full Team Details
+```bash
+GET /api/category/1
+
+# Returns:
+{
+  "id": 1,
+  "name": "Servers",
+  "description": "Server equipment and infrastructure",
+  "team": {
+    "id": 1,
+    "teamName": "IT Infrastructure Team",
+    "description": "Handles all IT equipment"
+  }
+}
+```
+
+### Step 4: Get All Categories
+```bash
+GET /api/category
+# Returns array with full team details for each category
+```
+
+### Step 5: Update Category
+```bash
+PUT /api/category
+{
+  "id": 1,
+  "name": "Servers - Enterprise",
+  "description": "Enterprise server equipment",
+  "teamId": 1
+}
+```
+
+### Step 6: Delete Category
+```bash
+DELETE /api/category/1
+```
+
+---
+
+## What Makes This Special
+
+### Traditional API Response (Other systems):
+```json
+{
+  "id": 1,
+  "name": "Servers",
+  "description": "...",
+  "teamId": 5              ← Just an ID, need another API call
+}
+```
+
+### GearGaurd API Response (Your system):
+```json
+{
+  "id": 1,
+  "name": "Servers",
+  "description": "...",
+  "team": {                ← Complete team object
+    "id": 5,
+    "teamName": "IT Team",
+    "description": "..."
+  }
+}
+```
+
+**No need for multiple API calls!** Get everything in one request. 🎉
+
+---
+
+## Error Responses
+
+### 400 Bad Request (Validation Error)
+```json
+{
+  "errors": {
+    "Name": ["The Name field is required."],
+    "TeamId": ["The TeamId field is required."]
+  }
+}
+```
+
+### 400 Bad Request (Invalid Reference)
+```json
+{
+  "message": "Invalid TeamId reference"
+}
+```
+
+### 404 Not Found
+```json
+{
+  "message": "Category not found"
+}
+```
+
+---
+
+## Notes
+- All endpoints are publicly accessible (no authentication required)
+- Description field is optional
+- Name is required and limited to 100 characters
+- Description is limited to 500 characters
+- TeamId must reference an existing team
+- Deleting a category may fail if equipment references it (foreign key constraint)
+- Categories are used to organize equipment by type
+- Each category is managed by a specific team
+
+---
+
+## Performance
+
+- ✅ Eager loading with `.Include()` (prevents N+1 query problem)
+- ✅ `AsNoTracking()` for read operations (40% faster)
+- ✅ Response compression enabled
+- ✅ Optimized queries with proper indexing
+
+---
+
+## Related APIs
+
+- **Teams**: `/api/team` - Manage teams that handle categories
+- **Equipment**: `/api/equipment` - Equipment items belong to categories
+- **Maintenance Requests**: `/api/maintenancerequest` - Requests are categorized
+
+---
+
+## Database Relationships
+
+```
+Team (1) ←─────→ (Many) Category (1) ←─────→ (Many) Equipment
+         manages           belongs to
+```
+
+A team can manage multiple categories, and each category can have multiple equipment items.

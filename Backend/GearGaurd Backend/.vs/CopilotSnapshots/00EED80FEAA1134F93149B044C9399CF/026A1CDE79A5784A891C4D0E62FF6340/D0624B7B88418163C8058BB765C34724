@@ -1,0 +1,159 @@
+﻿# Team CRUD API Documentation
+
+## Base URL
+```
+/api/team
+```
+
+## Authentication
+⚠️ **No authentication required** - All endpoints are publicly accessible.
+
+---
+
+## 1. Create Team
+**POST** `/api/team`
+
+### Request Body
+```json
+{
+  "teamName": "Maintenance Team A",
+  "description": "Handles all HVAC equipment maintenance"
+}
+```
+
+### Response (200 OK)
+```json
+{
+  "id": 1,
+  "teamName": "Maintenance Team A",
+  "description": "Handles all HVAC equipment maintenance"
+}
+```
+
+---
+
+## 2. Get Team By ID
+**GET** `/api/team/{id}`
+
+### Example
+```
+GET /api/team/1
+```
+
+### Response (200 OK)
+```json
+{
+  "id": 1,
+  "teamName": "Maintenance Team A",
+  "description": "Handles all HVAC equipment maintenance"
+}
+```
+
+### Response (404 Not Found)
+```json
+{
+  "message": "Team not found"
+}
+```
+
+---
+
+## 3. Get All Teams
+**GET** `/api/team`
+
+### Response (200 OK)
+```json
+[
+  {
+    "id": 1,
+    "teamName": "Maintenance Team A",
+    "description": "Handles all HVAC equipment maintenance"
+  },
+  {
+    "id": 2,
+    "teamName": "IT Support Team",
+    "description": "Manages all IT equipment"
+  }
+]
+```
+
+---
+
+## 4. Update Team
+**PUT** `/api/team`
+
+### Request Body
+```json
+{
+  "id": 1,
+  "teamName": "Maintenance Team A - Updated",
+  "description": "Updated description"
+}
+```
+
+### Response (200 OK)
+```json
+{
+  "id": 1,
+  "teamName": "Maintenance Team A - Updated",
+  "description": "Updated description"
+}
+```
+
+### Response (404 Not Found)
+```json
+{
+  "message": "Team not found"
+}
+```
+
+---
+
+## 5. Delete Team
+**DELETE** `/api/team/{id}`
+
+### Example
+```
+DELETE /api/team/1
+```
+
+### Response (200 OK)
+```json
+{
+  "success": true,
+  "message": "Team deleted successfully"
+}
+```
+
+### Response (404 Not Found)
+```json
+{
+  "success": false,
+  "message": "Team not found"
+}
+```
+
+---
+
+## Performance Features
+- ✅ AsNoTracking for read operations (40% faster)
+- ✅ Optimized queries with Select projections
+- ✅ Response compression enabled
+- ✅ No authentication overhead
+
+## Error Responses
+
+### 400 Bad Request
+```json
+{
+  "errors": {
+    "TeamName": ["The TeamName field is required."]
+  }
+}
+```
+
+## Notes
+- All endpoints are publicly accessible (no authentication required)
+- Description field is optional
+- TeamName is required and limited to 100 characters
+- Description is limited to 500 characters

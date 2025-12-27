@@ -10,7 +10,7 @@ using System.Text;
 namespace GearGaurd_Backend.Services;
 
 public class AuthService : IAuthService
-{
+{ 
     private readonly ApplicationDbContext _context;
     private readonly IConfiguration _configuration;
     private readonly SymmetricSecurityKey _securityKey;

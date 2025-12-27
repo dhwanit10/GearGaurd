@@ -1,0 +1,255 @@
+﻿using GearGaurd_Backend.Data;
+using GearGaurd_Backend.DTOs;
+using GearGaurd_Backend.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace GearGaurd_Backend.Services;
+
+public class MaintenanceRequestService : IMaintenanceRequestService
+{
+    private readonly ApplicationDbContext _context;
+
+    public MaintenanceRequestService(ApplicationDbContext context)
+    {
+        _context = context;
+    }
+
+    public async Task<MaintenanceRequestResponseDto?> CreateMaintenanceRequestAsync(CreateMaintenanceRequestDto request)
+    {
+        // Validate foreign key references
+        var equipmentExists = await _context.Equipment.AnyAsync(e => e.Id == request.EquipmentId);
+        var categoryExists = await _context.Categories.AnyAsync(c => c.Id == request.CategoryId);
+        var creatorExists = await _context.Users.AnyAsync(u => u.Id == request.CreatedBy);
+
+        if (!equipmentExists || !categoryExists || !creatorExists)
+        {
+            return null;
+        }
+
+        // Get TeamId from Category
+        var category = await _context.Categories
+            .AsNoTracking()
+            .FirstOrDefaultAsync(c => c.Id == request.CategoryId);
+
+        if (category == null)
+        {
+            return null;
+        }
+
+        int teamId = category.TeamId;
+
+        // Get all TeamMember IDs for this team
+        var teamMemberIds = await _context.TeamMembers
+            .AsNoTracking()
+            .Where(tm => tm.TeamId == teamId)
+            .Select(tm => tm.Id)
+            .ToListAsync();
+
+        // Find available team member from Availability table
+        int? assignedMaintenancePersonId = null;
+        Availability? availabilityToDelete = null;
+        DateTime? scheduledDate = null;
+
+        if (teamMemberIds.Any())
+        {
+            availabilityToDelete = await _context.Availabilities
+                .Where(a => teamMemberIds.Contains(a.TeamMemberId))
+                .FirstOrDefaultAsync();
+
+            if (availabilityToDelete != null)
+            {
+                assignedMaintenancePersonId = availabilityToDelete.TeamMemberId;
+                scheduledDate = DateTime.UtcNow; // Set to today if assigned
+            }
+        }
+
+        // Create maintenance request
+        var maintenanceRequest = new MaintenanceRequest
+        {
+            Subject = request.Subject,
+            EquipmentId = request.EquipmentId,
+            Type = request.Type,
+            Description = request.Description,
+            Status = "New", // Default status
+            MaintenancePersonId = assignedMaintenancePersonId,
+            CreatedBy = request.CreatedBy,
+            ScheduledDate = scheduledDate, // Set to today if assigned, null otherwise
+            ScheduleEnd = null, // Will be updated later
+            Duration = null,
+            CategoryId = request.CategoryId
+        };
+
+        _context.MaintenanceRequests.Add(maintenanceRequest);
+
+        // Delete availability record if maintenance person was assigned
+        if (availabilityToDelete != null)
+        {
+            _context.Availabilities.Remove(availabilityToDelete);
+        }
+
+        await _context.SaveChangesAsync();
+
+        return await GetMaintenanceRequestByIdAsync(maintenanceRequest.Id);
+    }
+
+    public async Task<MaintenanceRequestResponseDto?> GetMaintenanceRequestByIdAsync(int id)
+    {
+        var request = await _context.MaintenanceRequests
+            .AsNoTracking()
+            .Include(mr => mr.Equipment)
+            .Include(mr => mr.MaintenancePerson)
+                .ThenInclude(mp => mp!.Team)
+            .Include(mr => mr.MaintenancePerson)
+                .ThenInclude(mp => mp!.User)
+            .Include(mr => mr.Creator)
+            .Include(mr => mr.Category)
+            .FirstOrDefaultAsync(mr => mr.Id == id);
+
+        if (request == null)
+        {
+            return null;
+        }
+
+        return MapToResponseDto(request);
+    }
+
+    public async Task<List<MaintenanceRequestResponseDto>> GetAllMaintenanceRequestsAsync()
+    {
+        var requests = await _context.MaintenanceRequests
+            .AsNoTracking()
+            .Include(mr => mr.Equipment)
+            .Include(mr => mr.MaintenancePerson)
+                .ThenInclude(mp => mp!.Team)
+            .Include(mr => mr.MaintenancePerson)
+                .ThenInclude(mp => mp!.User)
+            .Include(mr => mr.Creator)
+            .Include(mr => mr.Category)
+            .ToListAsync();
+
+        return requests.Select(MapToResponseDto).ToList();
+    }
+
+    public async Task<MaintenanceRequestResponseDto?> UpdateMaintenanceRequestAsync(UpdateMaintenanceRequestDto request)
+    {
+        var maintenanceRequest = await _context.MaintenanceRequests
+            .FirstOrDefaultAsync(mr => mr.Id == request.Id);
+
+        if (maintenanceRequest == null)
+        {
+            return null;
+        }
+
+        // Validate foreign key references
+        var equipmentExists = await _context.Equipment.AnyAsync(e => e.Id == request.EquipmentId);
+        var categoryExists = await _context.Categories.AnyAsync(c => c.Id == request.CategoryId);
+        var creatorExists = await _context.Users.AnyAsync(u => u.Id == request.CreatedBy);
+
+        if (!equipmentExists || !categoryExists || !creatorExists)
+        {
+            return null;
+        }
+
+        if (request.MaintenancePersonId.HasValue)
+        {
+            var maintenancePersonExists = await _context.TeamMembers.AnyAsync(tm => tm.Id == request.MaintenancePersonId.Value);
+            if (!maintenancePersonExists)
+            {
+                return null;
+            }
+        }
+
+        maintenanceRequest.Subject = request.Subject;
+        maintenanceRequest.EquipmentId = request.EquipmentId;
+        maintenanceRequest.Type = request.Type;
+        maintenanceRequest.Description = request.Description;
+        maintenanceRequest.Status = request.Status;
+        maintenanceRequest.MaintenancePersonId = request.MaintenancePersonId;
+        maintenanceRequest.CreatedBy = request.CreatedBy;
+        maintenanceRequest.ScheduledDate = request.ScheduledDate;
+        maintenanceRequest.ScheduleEnd = request.ScheduleEnd;
+        maintenanceRequest.Duration = request.Duration;
+        maintenanceRequest.CategoryId = request.CategoryId;
+
+        await _context.SaveChangesAsync();
+
+        return await GetMaintenanceRequestByIdAsync(maintenanceRequest.Id);
+    }
+
+    public async Task<DeleteResponseDto> DeleteMaintenanceRequestAsync(int id)
+    {
+        var maintenanceRequest = await _context.MaintenanceRequests
+            .FirstOrDefaultAsync(mr => mr.Id == id);
+
+        if (maintenanceRequest == null)
+        {
+            return new DeleteResponseDto
+            {
+                Success = false,
+                Message = "Maintenance request not found"
+            };
+        }
+
+        _context.MaintenanceRequests.Remove(maintenanceRequest);
+        await _context.SaveChangesAsync();
+
+        return new DeleteResponseDto
+        {
+            Success = true,
+            Message = "Maintenance request deleted successfully"
+        };
+    }
+
+    private static MaintenanceRequestResponseDto MapToResponseDto(MaintenanceRequest request)
+    {
+        return new MaintenanceRequestResponseDto
+        {
+            Id = request.Id,
+            Subject = request.Subject,
+            Type = request.Type,
+            Description = request.Description,
+            Status = request.Status,
+            ScheduledDate = request.ScheduledDate,
+            ScheduleEnd = request.ScheduleEnd,
+            Duration = request.Duration,
+            Equipment = new EquipmentDetailsDto
+            {
+                Id = request.Equipment.Id,
+                Name = request.Equipment.Name,
+                SerialNo = request.Equipment.SerialNo,
+                Department = request.Equipment.Department,
+                Location = request.Equipment.Location,
+                Status = request.Equipment.Status
+            },
+            MaintenancePerson = request.MaintenancePerson != null ? new TeamMemberDetailsDto
+            {
+                Id = request.MaintenancePerson.Id,
+                Team = new TeamDetailsDto
+                {
+                    Id = request.MaintenancePerson.Team.Id,
+                    TeamName = request.MaintenancePerson.Team.TeamName,
+                    Description = request.MaintenancePerson.Team.Description
+                },
+                User = new UserDetailsDto
+                {
+                    Id = request.MaintenancePerson.User.Id,
+                    Name = request.MaintenancePerson.User.Name,
+                    Email = request.MaintenancePerson.User.Email,
+                    UserType = request.MaintenancePerson.User.UserType
+                }
+            } : null,
+            Creator = new UserDetailsDto
+            {
+                Id = request.Creator.Id,
+                Name = request.Creator.Name,
+                Email = request.Creator.Email,
+                UserType = request.Creator.UserType
+            },
+            Category = new CategoryDetailsDto
+            {
+                Id = request.Category.Id,
+                Name = request.Category.Name,
+                Description = request.Category.Description
+            }
+        };
+    }
+}

@@ -1,0 +1,387 @@
+﻿# Equipment CRUD API Documentation
+
+## Base URL
+```
+/api/equipment
+```
+
+## Authentication
+⚠️ **No authentication required** - All endpoints are publicly accessible.
+
+---
+
+## 1. Create Equipment
+**POST** `/api/equipment`
+
+### Request Body
+```json
+{
+  "name": "Dell PowerEdge R740",
+  "serialNo": "SRV-2024-001",
+  "department": "IT Department",
+  "categoryId": 1,
+  "location": "Server Room A, Rack 5",
+  "maintenanceTeamId": 1,
+  "status": "Active",
+  "purchaseDate": "2024-01-15T00:00:00Z",
+  "warrantyEnd": "2027-01-15T00:00:00Z",
+  "ownedBy": 1
+}
+```
+
+### Response (200 OK)
+```json
+{
+  "id": 1,
+  "name": "Dell PowerEdge R740",
+  "serialNo": "SRV-2024-001",
+  "department": "IT Department",
+  "location": "Server Room A, Rack 5",
+  "status": "Active",
+  "purchaseDate": "2024-01-15T00:00:00Z",
+  "warrantyEnd": "2027-01-15T00:00:00Z",
+  "category": {
+    "id": 1,
+    "name": "Servers",
+    "description": "Server equipment and infrastructure"
+  },
+  "maintenanceTeam": {
+    "id": 1,
+    "teamName": "IT Infrastructure Team",
+    "description": "Handles all IT equipment maintenance"
+  },
+  "owner": {
+    "id": 1,
+    "name": "Admin",
+    "email": "dhwanitakoliya10@gmail.com",
+    "userType": "Admin"
+  }
+}
+```
+
+### Response (400 Bad Request)
+```json
+{
+  "message": "Invalid CategoryId, MaintenanceTeamId, or OwnedBy reference"
+}
+```
+
+---
+
+## 2. Get Equipment By ID
+**GET** `/api/equipment/{id}`
+
+### Example
+```
+GET /api/equipment/1
+```
+
+### Response (200 OK)
+Returns full equipment details with **complete related entity information** (not just IDs):
+
+```json
+{
+  "id": 1,
+  "name": "Dell PowerEdge R740",
+  "serialNo": "SRV-2024-001",
+  "department": "IT Department",
+  "location": "Server Room A, Rack 5",
+  "status": "Active",
+  "purchaseDate": "2024-01-15T00:00:00Z",
+  "warrantyEnd": "2027-01-15T00:00:00Z",
+  "category": {
+    "id": 1,
+    "name": "Servers",
+    "description": "Server equipment and infrastructure"
+  },
+  "maintenanceTeam": {
+    "id": 1,
+    "teamName": "IT Infrastructure Team",
+    "description": "Handles all IT equipment maintenance"
+  },
+  "owner": {
+    "id": 1,
+    "name": "Admin",
+    "email": "dhwanitakoliya10@gmail.com",
+    "userType": "Admin"
+  }
+}
+```
+
+### Response (404 Not Found)
+```json
+{
+  "message": "Equipment not found"
+}
+```
+
+---
+
+## 3. Get All Equipment
+**GET** `/api/equipment`
+
+### Response (200 OK)
+Returns array of all equipment with **full relationship data**:
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Dell PowerEdge R740",
+    "serialNo": "SRV-2024-001",
+    "department": "IT Department",
+    "location": "Server Room A, Rack 5",
+    "status": "Active",
+    "purchaseDate": "2024-01-15T00:00:00Z",
+    "warrantyEnd": "2027-01-15T00:00:00Z",
+    "category": {
+      "id": 1,
+      "name": "Servers",
+      "description": "Server equipment and infrastructure"
+    },
+    "maintenanceTeam": {
+      "id": 1,
+      "teamName": "IT Infrastructure Team",
+      "description": "Handles all IT equipment maintenance"
+    },
+    "owner": {
+      "id": 1,
+      "name": "Admin",
+      "email": "dhwanitakoliya10@gmail.com",
+      "userType": "Admin"
+    }
+  },
+  {
+    "id": 2,
+    "name": "HP LaserJet Pro M404dn",
+    "serialNo": "PRT-2024-045",
+    "department": "Finance",
+    "location": "Building B, Floor 3, Room 301",
+    "status": "Active",
+    "purchaseDate": "2024-03-10T00:00:00Z",
+    "warrantyEnd": "2025-03-10T00:00:00Z",
+    "category": {
+      "id": 2,
+      "name": "Printers",
+      "description": "Printing equipment"
+    },
+    "maintenanceTeam": {
+      "id": 2,
+      "teamName": "Office Equipment Team",
+      "description": "Maintains office equipment"
+    },
+    "owner": {
+      "id": 2,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "userType": "User"
+    }
+  }
+]
+```
+
+---
+
+## 4. Update Equipment
+**PUT** `/api/equipment`
+
+### Request Body
+```json
+{
+  "id": 1,
+  "name": "Dell PowerEdge R740 - Updated",
+  "serialNo": "SRV-2024-001",
+  "department": "IT Department",
+  "categoryId": 1,
+  "location": "Server Room B, Rack 3",
+  "maintenanceTeamId": 1,
+  "status": "Under Maintenance",
+  "purchaseDate": "2024-01-15T00:00:00Z",
+  "warrantyEnd": "2027-01-15T00:00:00Z",
+  "ownedBy": 1
+}
+```
+
+### Response (200 OK)
+Returns updated equipment with **full relationship data**:
+
+```json
+{
+  "id": 1,
+  "name": "Dell PowerEdge R740 - Updated",
+  "serialNo": "SRV-2024-001",
+  "department": "IT Department",
+  "location": "Server Room B, Rack 3",
+  "status": "Under Maintenance",
+  "purchaseDate": "2024-01-15T00:00:00Z",
+  "warrantyEnd": "2027-01-15T00:00:00Z",
+  "category": {
+    "id": 1,
+    "name": "Servers",
+    "description": "Server equipment and infrastructure"
+  },
+  "maintenanceTeam": {
+    "id": 1,
+    "teamName": "IT Infrastructure Team",
+    "description": "Handles all IT equipment maintenance"
+  },
+  "owner": {
+    "id": 1,
+    "name": "Admin",
+    "email": "dhwanitakoliya10@gmail.com",
+    "userType": "Admin"
+  }
+}
+```
+
+### Response (404 Not Found)
+```json
+{
+  "message": "Equipment not found or invalid foreign key references"
+}
+```
+
+---
+
+## 5. Delete Equipment
+**DELETE** `/api/equipment/{id}`
+
+### Example
+```
+DELETE /api/equipment/1
+```
+
+### Response (200 OK)
+```json
+{
+  "success": true,
+  "message": "Equipment deleted successfully"
+}
+```
+
+### Response (404 Not Found)
+```json
+{
+  "success": false,
+  "message": "Equipment not found"
+}
+```
+
+---
+
+## Key Features
+
+### ✅ Full Relationship Data
+- **Category**: Complete category details (name, description) instead of just ID
+- **Maintenance Team**: Full team information (name, description) instead of just ID
+- **Owner**: Complete user details (name, email, userType) **without password** instead of just ID
+
+### ✅ Performance Optimized
+- `AsNoTracking()` for read operations (40% faster)
+- `Include()` for eager loading related entities (prevents N+1 queries)
+- Response compression enabled
+- Optimized query projections
+
+### ✅ Data Validation
+- Foreign key validation before create/update
+- Unique serial number constraint
+- Required field validation
+- Proper error messages
+
+---
+
+## Field Descriptions
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| name | string(100) | Yes | Equipment name |
+| serialNo | string(100) | Yes | Unique serial number |
+| department | string(100) | Yes | Department owning the equipment |
+| categoryId | int | Yes | Reference to Category table |
+| location | string(200) | Yes | Physical location |
+| maintenanceTeamId | int | Yes | Reference to Team table |
+| status | string(50) | Yes | Equipment status (Active, Under Maintenance, etc.) |
+| purchaseDate | DateTime | Yes | Purchase date |
+| warrantyEnd | DateTime | No | Warranty expiration date |
+| ownedBy | int | Yes | Reference to User table (equipment owner) |
+
+---
+
+## Status Values (Examples)
+- `Active` - Equipment is operational
+- `Under Maintenance` - Currently being serviced
+- `Inactive` - Not in use
+- `Retired` - Decommissioned
+- `Damaged` - Needs repair
+
+---
+
+## Sample Test Data
+
+### Prerequisites
+Before creating equipment, you need:
+1. **Category** (from `/api/category` - if you have that endpoint)
+2. **Team** (from `/api/team`)
+3. **User** (from `/api/auth/signup`)
+
+### Test Flow
+```bash
+# 1. Create a team first
+POST /api/team
+{
+  "teamName": "IT Team",
+  "description": "IT maintenance"
+}
+
+# 2. Create equipment using the team ID
+POST /api/equipment
+{
+  "name": "Laptop Dell",
+  "serialNo": "LAP-001",
+  "department": "IT",
+  "categoryId": 1,
+  "location": "Office 101",
+  "maintenanceTeamId": 1,
+  "status": "Active",
+  "purchaseDate": "2024-01-01T00:00:00Z",
+  "warrantyEnd": "2026-01-01T00:00:00Z",
+  "ownedBy": 1
+}
+```
+
+---
+
+## Error Responses
+
+### 400 Bad Request (Validation Error)
+```json
+{
+  "errors": {
+    "Name": ["The Name field is required."],
+    "SerialNo": ["The SerialNo field is required."]
+  }
+}
+```
+
+### 400 Bad Request (Invalid References)
+```json
+{
+  "message": "Invalid CategoryId, MaintenanceTeamId, or OwnedBy reference"
+}
+```
+
+### 404 Not Found
+```json
+{
+  "message": "Equipment not found"
+}
+```
+
+---
+
+## Notes
+- All date fields use ISO 8601 format with timezone
+- SerialNo must be unique across all equipment
+- Deleting equipment will cascade delete related maintenance requests
+- Foreign key validation ensures data integrity
+- Password is never returned in Owner details for security

@@ -1,0 +1,68 @@
+﻿using GearGaurd_Backend.DTOs;
+using GearGaurd_Backend.Services;
+using Microsoft.AspNetCore.Mvc;
+
+namespace GearGaurd_Backend.Controllers;
+
+[ApiController]
+[Route("api/[controller]")]
+public class MaintenanceRequestController : ControllerBase
+{
+    private readonly IMaintenanceRequestService _maintenanceRequestService;
+
+    public MaintenanceRequestController(IMaintenanceRequestService maintenanceRequestService)
+    {
+        _maintenanceRequestService = maintenanceRequestService;
+    }
+
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetMaintenanceRequestById(int id)
+    {
+        var result = await _maintenanceRequestService.GetMaintenanceRequestByIdAsync(id);
+
+        if (result == null)
+        {
+            return NotFound(new { message = "Maintenance request not found" });
+        }
+
+        return Ok(result);
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> GetAllMaintenanceRequests()
+    {
+        var result = await _maintenanceRequestService.GetAllMaintenanceRequestsAsync();
+        return Ok(result);
+    }
+
+    [HttpPut]
+    public async Task<IActionResult> UpdateMaintenanceRequest([FromBody] UpdateMaintenanceRequestDto request)
+    {
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
+
+        var result = await _maintenanceRequestService.UpdateMaintenanceRequestAsync(request);
+
+        if (result == null)
+        {
+            return NotFound(new { message = "Maintenance request not found or invalid foreign key references" });
+        }
+
+        return Ok(result);
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteMaintenanceRequest(int id)
+    {
+        var result = await _maintenanceRequestService.DeleteMaintenanceRequestAsync(id);
+
+        if (!result.Success)
+        {
+            return NotFound(result);
+        }
+
+        return Ok(result);
+    }
+}

@@ -1,0 +1,16 @@
+using System.ComponentModel.DataAnnotations;
+
+namespace GearGaurd_Backend.DTOs;
+
+public class UpdateTeamRequestDto
+{
+    [Required]
+    public int Id { get; set; }
+
+    [Required]
+    [MaxLength(100)]
+    public string TeamName { get; set; } = string.Empty;
+
+    [MaxLength(500)]
+    public string? Description { get; set; }
+}

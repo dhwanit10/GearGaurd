@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GearGaurd Backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50f8cae16c25a86fee2612444c9d78915448195d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c8353035956143bf4b3e14ce1650134eab5c410")]
 [assembly: System.Reflection.AssemblyProductAttribute("GearGaurd Backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GearGaurd Backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
